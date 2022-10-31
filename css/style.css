@@ -21,3 +21,27 @@ h6 {
 p {
   margin: 0;
 }
+
+/* Navigation CSS*/
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5%;
+}
+
+#navigation {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#navigation p {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#navBar h1 {
+  width: 25%;
+  font-weight: 500;
+}
