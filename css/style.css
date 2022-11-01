@@ -12,11 +12,10 @@ body {
 h1 {
   margin: 0px;
   color: forestgreen;
-
 };
 
 h2 {
-  margin: 0px 0px;
+  margin: auto;
   font-size: 60px;
 }
 
@@ -74,10 +73,11 @@ a {
   border-right: solid;
   border-width: 5px;
   border-color: teal;
+  margin-left: 150px;
 }
 #bio-paragraph {
   padding:10px;
-  margin-left: 15px ;
+  margin-left: 20px ;
   margin-right: 10px;
   line-height: 1.8;
 }
@@ -134,4 +134,49 @@ a {
   border-bottom: 5px solid palevioletred;
   
 }
+
+/* CSS Design for Contact Me section */
+.contact-details {
+  display: grid;
+  grid-template-columns: 20% 75%;
+  padding: 20px;
+}
+
+#contact-me-border {
+  border-right: solid;
+  border-width: 5px;
+  border-color: teal;
+  margin-left: 150px;
+}
+
+.contact-link {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "email telephone github linkedin resume";
+  align-items: center;
+  margin-left: 20px;
+}
+#email {
+  grid-area: email;
+}
+
+#telephone {
+  grid-area: telephone;
+}
+
+#github {
+  grid-area: github;
+}
+
+#linkedin {
+  grid-area: linkedin;
+}
+
+#resume {
+  grid-area: resume;
+}
+
+
 
