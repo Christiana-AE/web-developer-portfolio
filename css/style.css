@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  
 }
 
 body {
@@ -21,14 +22,19 @@ h2 {
 
 p {
   margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a {
   text-decoration: none;
 }
 
+.page-section, 
+.page-section contact {
+  background-color: azure;
+}
 
-/* Navigation CSS*/
+/* CSS design for Navigation */
 #navBar {
   display: flex;
   flex-direction: row;
@@ -83,6 +89,19 @@ a {
 }
 
 /* CSS Design for Work section */
+.dev-work {
+  display: grid;
+  grid-template-columns: 20% 75%;
+  padding: 20px;
+}
+
+#dev-work-border {
+  border-right: solid;
+  border-width: 5px;
+  border-color: teal;
+  margin-left: 150px;
+}
+
 .categoryGridArea {
   background-position: center;
   background-size: cover;
@@ -93,11 +112,11 @@ a {
   align-content: end;
 }
 
-#work {
+.dev-class {
   margin: 0px 5%;
   display: grid;
   grid-template-rows: 300px 200px 200px;
-  grid-template-columns: 1fr fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-areas: 
   "marketing-site marketing-site"
   "jakes-eatery prework-study"
@@ -132,7 +151,6 @@ a {
   color: white;
   font-size: 20px;
   border-bottom: 5px solid palevioletred;
-  
 }
 
 /* CSS Design for Contact Me section */
