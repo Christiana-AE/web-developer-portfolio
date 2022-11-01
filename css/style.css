@@ -9,13 +9,15 @@ body {
   line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+h1 {
+  margin: 0px;
+  color: forestgreen;
+
+};
+
+h2 {
+  margin: 0px 0px;
+  font-size: 60px;
 }
 
 p {
@@ -59,6 +61,25 @@ a {
   grid-template-rows: 100%;
   grid-template-columns: 100%;
   background-image: url("../images/02-portfolio-3.jpg");  
+}
+
+/* CSS Design for About Me*/
+.devbio {
+  display: grid;
+  grid-template-columns: 20% 75%;
+  padding: 20px;
+}
+
+#devbio-border {
+  border-right: solid;
+  border-width: 5px;
+  border-color: teal;
+}
+#bio-paragraph {
+  padding:10px;
+  margin-left: 15px ;
+  margin-right: 10px;
+  line-height: 1.8;
 }
 
 /* CSS Design for Work section */
@@ -105,7 +126,7 @@ a {
 }
 
 .heading {
-  background-color: rgba(0,0,0,0.8);
+  background-color: teal;
   padding: 20px;
   height: 25px;
   color: white;
